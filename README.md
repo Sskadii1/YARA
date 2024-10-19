@@ -17,11 +17,11 @@ Phần mềm độc hại, giống như ứng dụng "Hello World" của chúng 
 
 Sau đây là một số ví dụ về dữ liệu mà nhiều loại phần mềm độc hại lưu trữ trong chuỗi:
 
-Dữ liệu Sự miêu tản Phần mềm tống tiền
+Ví Bitcoin để thanh toán tiền chuộc : 12t9YDPgwueZ9NyMgw519p7AA8isjr6SMw
 
-12t9YDPgwueZ9NyMgw519p7AA8isjr6SMw
+Hoặc chữ ký, của tác giả.
 
-Ví Bitcoin để thanh toán tiền chuộc
+etc...
 
 
 
