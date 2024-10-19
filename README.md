@@ -1,6 +1,4 @@
 # YARA
-Tất cả về Yara 
-
 Yara có thể xác định thông tin dựa trên cả mẫu nhị phân và mẫu văn bản, chẳng hạn như thập lục phân và chuỗi ký tự có trong tệp.
 
 Các quy tắc được sử dụng để dán nhãn cho các mẫu này. Ví dụ, các quy tắc Yara thường được viết để xác định xem một tệp có độc hại hay không, dựa trên các tính năng - hoặc các mẫu - mà nó thể hiện.  Chuỗi là thành phần cơ bản của ngôn ngữ lập trình. Các ứng dụng sử dụng chuỗi để lưu trữ dữ liệu như văn bản.
