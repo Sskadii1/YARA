@@ -1,0 +1,19 @@
+rule MalwareDetectionExample
+{
+    meta:
+        author = "Nguyễn Nhật Linh"
+        description = "This rule detects a specific malware based on file size, strings, and file structure"
+        date = "2024-09-09"
+        version = "1.0"
+
+    strings:
+        $malicious_string_1 = "malware" ascii
+        $malicious_string_2 = "kanyewest.exe /c" nocase
+        $malicious_string_3 = { 45 56 4C 00 4D 41 4C 00 }
+
+    condition:
+        (filesize > 1KB and filesize < 1MB) and
+        (1 of ($malicious_string*)) and
+        uint16(0) == 0x5A4D and
+        uint32(0x3C) + uint32(0x40) == 0x4550
+}
